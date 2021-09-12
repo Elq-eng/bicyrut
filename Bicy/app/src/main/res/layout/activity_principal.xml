@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".principal">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="135dp"
+                android:text="Acceder"
+                android:textSize="25dp" />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="194dp"
+                android:layout_height="109dp"
+                android:layout_marginLeft="80dp"
+                app:srcCompat="@drawable/bbike" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="User"
+                android:textColor="@android:color/background_dark"
+                android:textColorHint="@android:color/background_light"
+                android:textSize="18dp" />
+
+
+
+            <EditText
+                    android:id="@+id/txtuser"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Name"
+                    android:textColor="@android:color/darker_gray" />
+
+
+
+
+            <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:text="Password"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/txtpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="25dp"
+                android:textSize="18dp"
+                android:background="@android:color/background_light"
+                android:backgroundTint="@android:color/background_light"
+                android:text="¿No puedes acceder a tu cuenta?"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <Button
+                android:id="@+id/Iniciar"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="120dp"
+                android:onClick="Iniciar"
+                android:background="@android:color/holo_red_light"
+                android:textSize="18dp"
+                android:text="Iniciar"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/crearcuenta"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="90dp"
+                android:onClick="cuenta"
+                android:background="@android:color/background_light"
+                android:backgroundTint="@android:color/background_light"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16dp"
+                android:text="Crear cuenta"
+                android:textColor="@android:color/holo_blue_dark" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

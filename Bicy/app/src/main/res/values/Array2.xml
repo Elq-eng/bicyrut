@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TiposCiclas">
+        <item> MTB </item>
+        <item> RUTA </item>
+        <item> HIBRIDA </item>
+        <item> URBANAS </item>
+        <item> PLEGABLES </item>
+        <item> FIXIES </item>
+        <item> CRUISERS </item>
+        <item> BMX </item>
+        <item> TOURING </item>
+        <item> ELECTRICA </item>
+        <item> UTILITARIAS </item>
+        <item> FAT BIKES </item>
+    </string-array>
+
+</resources>

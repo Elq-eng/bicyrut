@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Consultar_Usurarios">
+
+    <item android:id="@+id/configuracion"
+        android:title="InfoBicicletas"/>
+    <item android:id="@+id/action_listar"
+        android:title="ListaUsurario"
+        android:orderInCategory="100"
+        />
+
+
+</menu>
